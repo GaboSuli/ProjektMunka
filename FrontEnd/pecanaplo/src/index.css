@@ -1,0 +1,45 @@
+body{
+  background: linear-gradient(0.25turn, #254f61, #349696, #254f61);
+}
+header
+{
+  padding: 50px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+section{
+  width: 95%;
+  background-color: rgba(50, 50, 50, 0.5);
+  padding: 25px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+}
+.card{
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  background-color: #253035;
+  width: 20%;
+  color: white;
+  text-align: center;
+}
+.talalatok{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.filters
+{
+  text-align: center;
+}
+.filters>br
+{
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 900px) {
+  .card {
+    width: 80%;
+  }
+}
